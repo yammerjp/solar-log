@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "cron": "node bin/cron.js",
+    "csv-server": "node bin/server.js"
+  },
+  "dependencies": {
+    "node-cron": "^2.0.3",
+    "request": "^2.88.2"
+  },
+  "license": "MIT"
+}
